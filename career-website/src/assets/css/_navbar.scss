@@ -1,0 +1,164 @@
+/*Header*/
+header {
+  background-color: $header;
+  @include position(fixed, $top: 0, $right: null, $bottom: null, $left: 0);
+  padding: 5px 0;
+  z-index: 99;
+  @include transition;
+
+  &.sticky {
+    background-color: grey;
+    padding: 10px 0;
+  }
+
+  @include tablet {
+    padding: 5px 0 15px 0;
+  }
+}
+
+.navbar {
+  display: block;
+  padding: 0;
+
+  &__button {
+    margin: 0 0 0 10px;
+
+    @include tablet {
+      text-align: center;
+    }
+
+    .headButton {
+      background-color: $yellow;
+      display: inline-block;
+      color: $blackTint1;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+      padding: 5px 40px;
+      border-radius: 20px;
+
+      @include phone-landscape {
+        padding: 2px 35px;
+        font-size: 15px;
+      }
+    }
+
+  }
+}
+
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  color: $white;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.55rem;
+  font-size: 1rem;
+}
+
+.nav-link {
+  color: $white  !important;
+  padding: 0 10px !important;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+  border-right: 1px solid #582C7D;
+
+  &:hover,
+  &:focus {
+    color: #FFB800 !important;
+  }
+
+
+  @include tablet {
+    text-align: center;
+    border-right: 0;
+  }
+
+
+}
+
+/*Animate NavBar*/
+@include tablet {
+  .navbar__menu {
+
+    li,
+    .headButton {
+      position: relative;
+      opacity: 0;
+    }
+
+    &.navanimate>li {
+      -webkit-animation: fadeInLeft 0.5s ease forwards;
+      animation: fadeInLeft 0.5s ease forwards;
+      -webkit-animation-delay: 0.45s;
+      animation-delay: 0.45s;
+
+      &:nth-of-type(2) {
+        -webkit-animation-delay: 0.55s;
+        animation-delay: 0.55s;
+      }
+
+      &:nth-of-type(3) {
+        -webkit-animation-delay: 0.65s;
+        animation-delay: 0.65s;
+      }
+
+      &:nth-of-type(4) {
+        -webkit-animation-delay: 0.75s;
+        animation-delay: 0.75s;
+      }
+
+      &:nth-of-type(5) {
+        -webkit-animation-delay: 0.85s;
+        animation-delay: 0.85s;
+      }
+
+      &:nth-of-type(6) {
+        -webkit-animation-delay: 0.95s;
+        animation-delay: 0.95s;
+      }
+
+      &:nth-of-type(7) {
+        -webkit-animation-delay: 0.99s;
+        animation-delay: 0.99s;
+      }
+    }
+
+    &.navanimate {
+      .headButton {
+        -webkit-animation: fadeInLeft 0.5s ease forwards;
+        animation: fadeInLeft 0.5s ease forwards;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+      }
+    }
+  }
+
+  @-webkit-keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+
+      right: 20%;
+    }
+
+    100% {
+      opacity: 1;
+      right: 0;
+    }
+  }
+
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      right: 20%;
+    }
+
+    100% {
+      opacity: 1;
+      right: 0;
+    }
+  }
+}
