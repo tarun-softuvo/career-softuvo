@@ -1,0 +1,135 @@
+$poppinsfontFamily: 'Poppins', sans-serif;
+$bodyfontSize: 16px;
+
+//Colors
+$header: #462066;
+$white: #fff;
+$whiteTint1: #f1f1f1;
+
+$black: #000;
+$blackTint1: #222;
+
+$lightGrey: #7E7E7E;
+$lightGreyTint0: #616161;
+$lightGreyTint1: #3A3A3A;
+$lightGreyTint2: #464646;
+$lightGreyTint3: #777777;
+
+$grey: #2A2A2A;
+$greyTint1: #201D1D;
+$greyTint2: #292929;
+$greyTint3: #27363B;
+$greyTint4: #323232;
+
+$yellow: #FFB800;
+$yellowTint: #FFB85F;
+$yellowTint0: #ffc000;
+$yellowTint1: #F8A53D;
+$yellowTint2: #FFB147;
+$yellowTint3: #FFD600;
+$yellowTint4: #FBB962;
+$yellowTint5: #FFC94A;
+$yellowTint6: #FFCF8E;
+
+$yellowDark: #D87800;
+$yellowDark0: #7A4C12;
+$yellowDark1: #B66500;
+$yellowDark2: #DB8922;
+$yellowDark3: #8D6913;
+$yellowDark4: #A46C26;
+
+$red: #f00;
+$redTint0: #E73B63;
+$redTint1: #E53538;
+$redTint2: #EB4960;
+$redTint3: #D6394F;
+$redTint4: #F85C72;
+
+$pink: #FF4E78;
+$pinkTint0: #E14686;
+$pinkTint1: #F35555;
+$pinkTint2: #F85770;
+$pinkTint3: #F2635F;
+$pinkTint4: #E75D5D;
+$pinkTint5: #FF7A5A;
+$pinkTint6: #D8635C;
+$pinkTint7: #FE94A3;
+
+$purple: #A654C6;
+$purpleTint1: #C75CF0;
+$purpleTint2: #603BB9;
+$purpleTint3: #7E56DC;
+$purpleTint4: #BA63DB;
+$purpleTint5: #9244B0;
+$purpleTint6: #C070DF;
+
+$darkPurple: #5935AF;
+$darkPurpleTint0: #6641CF;
+$darkPurpleTint1: #612697;
+$darkPurpleTint2: #A465DD;
+$darkPurpleTint3: #AD5DF5;
+$darkPurpleTint4: #8057F8;
+$darkPurpleTint5: #A757F8;
+$darkPurpleTint6: #866AC9;
+$darkPurpleTint7: #9376D8;
+$darkPurpleTint8: #966EF5;
+$darkPurpleTint9: #8E72FF;
+$darkPurpleTint10: #5E449B;
+$darkPurpleTint11: #66279F;
+
+$skyBlue: #5E7FF4;
+$skyBlueTint0: #9AAEF8;
+$skyBlueTint1: #5065B2;
+$skyBlueTint2: #5571D9;
+$skyBlueTint3: #ADB5FF;
+
+$lightBlue: #57AAF8;
+
+$blue: #201E3A;
+$blueTint1: #025C8E;
+$blueTint2: #464462;
+$blueTint3: #6977F8;
+$blueTint4: #7987FF;
+
+$opacityGreen: #9BECE7;
+$opacityGreenTint0: #84BF99;
+$opacityGreenTint1: #a6e6d8;
+$opacityGreenTint2: #74E0DA;
+
+$green: #00AAA0;
+$greenTint0: #006F68;
+$greenTint1: #2AC396;
+$greenTint2: #1E785A;
+$greenTint3: #00C2B7;
+$greenTint4: #83BE98;
+$greenTint5: #45835B;
+$greenTint6: #429683;
+$greenTint7: #66AE7F;
+$greenTint8: #43985E;
+$greenTint9: #88BD87;
+$greenTint10: #08A69C;
+$greenTint11: #008B83;
+$greenTint12: #007A73;
+
+//Breakpoints
+$desktop-only: 1199px;
+$xxl-large-pc: 2500px;
+$xl-large-pc: 2000px;
+$large-pc: 1500px;
+$small-pc: 1299px;
+$laptop: 1199px;
+$tablet-landscape: 1024px;
+$upto-tablet: 992px;
+$tablet: 991px;
+$mini-tablet: 767px;
+$phone-landscape: 575px;
+$smartphone: 479px;
+$mini-smartphone: 380px;
+
+
+//Border-Radius
+$borderRadius10: 10px;
+$borderRadius20: 20px;
+$borderRadius30: 30px;
+$borderRadius40: 40px;
+$borderRadius50: 50px;
